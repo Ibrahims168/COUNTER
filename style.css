@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainContainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/imggg.jpg");
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+}
+.card{
+    width: 50%;
+    height: 40%;
+    background-color: rgba(255, 255, 255, 0.676);
+    box-shadow: 0 0 10px #e0e0e0;
+    margin-bottom: 15%;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+}   
+.card h2{
+    font-size: 30px;
+}
+.counter1{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    font-size: 60px;
+    color: rgb(83, 154, 61);
+    margin-left: 160px;
+}
+.twoP{
+    color: #000;
+}
+.counterTitle h2{
+    color: rgb(51, 80, 177);
+}
